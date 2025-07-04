@@ -84,8 +84,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Mail className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-muted-foreground text-sm">info@elpiventures.com</p>
-                  <p className="text-muted-foreground text-sm">sales@elpiventures.com</p>
+                  <p className="text-muted-foreground text-sm">info@elpi.io</p>
+                  <p className="text-muted-foreground text-sm">sales@elpi.io</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
