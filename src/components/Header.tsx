@@ -12,9 +12,12 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <h1 className="text-3xl font-bold text-primary tracking-tight">Elpi Ventures</h1>
-              <p className="text-xs text-muted-foreground font-medium tracking-wide">AI Business Solutions</p>
+            <div className="flex-shrink-0 flex items-center space-x-3">
+              <img src="/lovable-uploads/e3411314-5f36-4f56-9648-3ce7decfb0fe.png" alt="Elpi Ventures Logo" className="h-12 w-12" />
+              <div>
+                <h1 className="text-3xl font-bold text-primary tracking-tight">Elpi Ventures</h1>
+                <p className="text-xs text-muted-foreground font-medium tracking-wide">AI Business Solutions</p>
+              </div>
             </div>
           </div>
           

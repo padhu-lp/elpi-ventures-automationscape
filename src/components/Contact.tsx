@@ -118,8 +118,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-foreground mb-2">Call Us</h3>
-                      <p className="text-muted-foreground mb-1">+1 (555) 123-4567</p>
-                      <p className="text-muted-foreground">+1 (555) 765-4321</p>
+                      <p className="text-muted-foreground mb-1">+91 8310465234</p>
+                      <p className="text-muted-foreground">24/7 Support Available</p>
                     </div>
                   </div>
                 </CardContent>

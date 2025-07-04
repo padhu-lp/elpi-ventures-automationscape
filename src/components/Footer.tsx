@@ -31,9 +31,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="space-y-6">
-            <div>
-              <h3 className="text-2xl font-bold text-primary mb-2">Elpi Ventures</h3>
-              <p className="text-sm text-muted-foreground font-medium">AI Business Solutions</p>
+            <div className="flex items-center space-x-3 mb-4">
+              <img src="/lovable-uploads/e3411314-5f36-4f56-9648-3ce7decfb0fe.png" alt="Elpi Ventures Logo" className="h-10 w-10" />
+              <div>
+                <h3 className="text-2xl font-bold text-primary mb-2">Elpi Ventures</h3>
+                <p className="text-sm text-muted-foreground font-medium">AI Business Solutions</p>
+              </div>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               Transforming SMEs through intelligent automation and expert AI consultancy. Your strategic partner for digital transformation.
@@ -91,7 +94,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-muted-foreground text-sm">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground text-sm">+91 8310465234</p>
                   <p className="text-muted-foreground text-sm">24/7 Support Available</p>
                 </div>
               </div>
