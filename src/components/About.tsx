@@ -32,7 +32,7 @@ const About = () => {
   ];
 
   const stats = [
-    { icon: Award, value: "150+", label: "Projects Delivered" },
+    { icon: Award, value: "60+", label: "Processes Developed" },
     { icon: Globe, value: "25+", label: "Industries Served" },
     { icon: Clock, value: "99.9%", label: "Uptime Guarantee" },
     { icon: Users, value: "50+", label: "Expert Team Members" }
