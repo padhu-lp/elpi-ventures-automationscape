@@ -33,16 +33,15 @@ const About = () => {
 
   const stats = [
     { icon: Award, value: "60+", label: "Processes Developed" },
-    { icon: Globe, value: "25+", label: "Industries Served" },
-    { icon: Clock, value: "99.9%", label: "Uptime Guarantee" },
-    { icon: Users, value: "50+", label: "Expert Team Members" }
+    { icon: Globe, value: "10+", label: "Industries Served" },
+    { icon: Clock, value: "99.9%", label: "Uptime Guarantee" }
   ];
 
   return (
     <section id="about" className="py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Stats Section */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {stats.map((stat, index) => (
             <Card key={index} className="text-center p-8 border-border/50 hover:border-primary/30 transition-all duration-300 group">
               <CardContent className="p-0">
