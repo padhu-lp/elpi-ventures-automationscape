@@ -41,7 +41,7 @@ const Hero = () => {
 
             <div className="grid grid-cols-3 gap-8 pt-12 border-t border-border/30">
               <div className="text-center group cursor-pointer">
-                <div className="text-3xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform duration-300">150+</div>
+                <div className="text-3xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform duration-300">15</div>
                 <div className="text-sm text-muted-foreground font-medium">SMEs Transformed</div>
               </div>
               <div className="text-center group cursor-pointer">
